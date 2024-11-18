@@ -15,8 +15,7 @@ import { CMS_NAME, CMS_URL } from "@/lib/constants";
 
 function Intro() {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      {/* Need to add the pocket change logo here and then center it using tailwind */}
+    <section className="flex-col md:flex-row flex items-center md:justify-center mt-16 mb-16 md:mb-12">
       <img src={pocketChange.src} style={{ width: '40%', height: 'auto' }} />
     </section>
   );
@@ -42,21 +41,21 @@ function HeroPost({
       <div className="mb-8 md:mb-16">
         <CoverImage title={title} slug={slug} url={coverImage.url} />
       </div>
-      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
-        <div>
+      <div className="md:grid md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28 border-2 border-green-500">
+        {/* <div> */}
           <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
-            <Link href={`/posts/${slug}`} className="hover:underline">
+            <Link href={`/posts/${slug}`} className="hover:underline font-bold">
               {title}
             </Link>
           </h3>
           <div className="mb-4 md:mb-0 text-lg">
             <Date dateString={date} />
           </div>
-        </div>
-        <div>
+        {/* </div> */}
+        {/* <div> */}
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
           {author && <Avatar name={author.name} picture={author.picture} />}
-        </div>
+        {/* </div> */}
       </div>
     </section>
   );
