@@ -5,14 +5,14 @@
 Create a very basic headless CMS blog. The webpage will utilize a Next.js starter package and a Contentful CMS. At the end of this project, the expectation will be to have a styled, working website with a Next.js front-end with content delivered by Contentful.
 
 ## Reflections
-I really enjoyed creating this project as it was the first time I had used Contentful and learning a new tool is always exctiting.
+I really enjoyed creating this project as it was the first time I had used Contentful and learning a new tool is always exciting.
 
 **Key Takeaways**
 - I gained a deeper understanding of headless CMS architecture and its advantages, including improved maintainability and adaptability to evolving technologies.
-- I expanded on my knowlege of styling using various frameworks and methodologies in css
+- I expanded on my knowledge of styling using various frameworks and methodologies in css
 
-## Scenrio Slideshow
-The linked slide show answers the follwoing prompts: 
+## Scenario Slideshow
+The linked slide show answers the following prompts: 
 
 1. UX improvements:
 What improvements would you make to the blog you just built? What elements
@@ -36,3 +36,4 @@ negatively. What steps would you take to speed up load time on the page... or
 at a more global site level?
 
 [View the slideshow here](https://docs.google.com/presentation/d/1llwjDeH_DZ_qHDhJQTuehb9cMgurCRbiR3iLbeZGSXw/edit#slide=id.g317d81f0e3f_0_1013 )
+
